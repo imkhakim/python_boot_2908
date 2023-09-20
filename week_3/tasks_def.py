@@ -56,7 +56,6 @@ def findall(str_1, symbol):
 
     list_index = []
     start = -1
-    count = 0
 
     while True:
         start = str_1.find(symbol, start + 1)
